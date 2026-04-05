@@ -1,0 +1,52 @@
+﻿column,code,meaning,type
+visual,0,Не важны,ordinal/binary
+visual,1,Немного важны,ordinal/binary
+visual,2,Средне важны,ordinal/binary
+visual,3,Важны,ordinal/binary
+visual,4,Очень важны,ordinal/binary
+practice,0,Редко,ordinal/binary
+practice,1,Иногда,ordinal/binary
+practice,2,Всегда,ordinal/binary
+ai_use,0,Редко,ordinal/binary
+ai_use,1,Несколько раз в неделю,ordinal/binary
+ai_use,2,Каждый день,ordinal/binary
+ai_help,0,Нет,ordinal/binary
+ai_help,1,Иногда,ordinal/binary
+ai_help,2,Да,ordinal/binary
+ai_understand,0,Не помогает,ordinal/binary
+ai_understand,1,Помогает слабо,ordinal/binary
+ai_understand,2,Помогает умеренно,ordinal/binary
+ai_understand,3,Помогает хорошо,ordinal/binary
+ai_understand,4,Очень помогает,ordinal/binary
+minimalism,0,Нет,ordinal/binary
+minimalism,1,Да,ordinal/binary
+practice_best,0,Затрудняюсь ответить,ordinal/binary
+practice_best,1,Скорее согласен,ordinal/binary
+practice_best,2,Полностью согласен,ordinal/binary
+notes,0,Никогда,ordinal/binary
+notes,1,Редко,ordinal/binary
+notes,2,Иногда,ordinal/binary
+notes,3,Всегда,ordinal/binary
+study_type,0,Самостоятельно,ordinal/binary
+study_type,1,В группе,ordinal/binary
+study_time,0,< 1 часа,ordinal/binary
+study_time,1,1–2 часа,ordinal/binary
+study_time,2,2–4 часа,ordinal/binary
+study_time,3,4 часа и больше,ordinal/binary
+actions_read,0/1,"1 = selected 'Читаю', 0 = not selected",multi-select binary
+actions_video,0/1,"1 = selected 'Смотрю видео', 0 = not selected",multi-select binary
+actions_tasks,0/1,"1 = selected 'Делаю задания', 0 = not selected",multi-select binary
+actions_review,0/1,"1 = selected 'Повторяю', 0 = not selected",multi-select binary
+ai_purpose_study,0/1,"1 = selected 'Учёба', 0 = not selected",multi-select binary
+ai_purpose_search,0/1,"1 = selected 'Поиск информации', 0 = not selected",multi-select binary
+ai_purpose_tasks,0/1,"1 = selected 'Выполнение заданий', 0 = not selected",multi-select binary
+ai_purpose_fun,0/1,"1 = selected 'Развлечения', 0 = not selected",multi-select binary
+perception_practice,0/1,"1 = 'Практика', 0 = otherwise",one-hot
+perception_memorization,0/1,"1 = 'Заучивание', 0 = otherwise",one-hot
+perception_text,0/1,"1 = 'Текст', 0 = otherwise",one-hot
+perception_video_images,0/1,"1 = 'Видео / изображения', 0 = otherwise",one-hot
+learning_style_practical,0/1,"1 = 'Практический', 0 = otherwise",one-hot
+learning_style_memorization,0/1,"1 = 'Заучивание', 0 = otherwise",one-hot
+learning_style_visual,0/1,"1 = 'Визуальный', 0 = otherwise",one-hot
+learning_style_minimalism,0/1,"1 = 'Минимализм', 0 = otherwise",one-hot
+age,numeric,Age in years,numeric
